@@ -1,0 +1,153 @@
+{
+  "eventId": "8367217026655-113d2f7d123",
+  "eventName": "FULFILLMENT_REQUEST_CREATE",
+  "eventSource": "OMS-SAMS",
+  "eventPayload": {
+    "buId": "0",
+    "martId": "23",
+    "customerOrderId": "8367217026666",
+    "sellerOrderId": "7777777777844",
+    "orderPlacedTimestamp": "2021-04-07T00:41:38+00:00",
+    "needsConfirmation": false,
+    "customer": {
+      "contact": {
+        "name": {
+          "firstName": "Christian",
+          "lastName": "Efferson"
+        },
+        "phone": "3187546195",
+        "email": "chrisharbor90@gmail.com"
+      }
+    },
+    "paymentDetails": [
+      {
+        "paymentType": "CREDITCARD",
+        "cardType": "VISA",
+        "last4": null,
+        "billTo": {
+          "name": {
+            "firstName": "Jillian",
+            "lastName": "Y"
+          },
+          "phone": "8595525684",
+          "email": "chrisharbor90@gmail.com"
+        },
+        "billingAddress": {
+          "line1": "2105 Dresden Court",
+          "city": "lexington",
+          "state": "KY",
+          "country": "USA",
+          "zip": "40514",
+          "addressType": null
+        }
+      }
+    ],
+    "orderAttributes": [
+      {
+        "attributeName": "ipAddress",
+        "values": [
+          "10.12.10.123"
+        ],
+        "type": "STRING"
+      },
+      {
+        "attributeName": "memberShipDetails",
+        "values": [
+          "10142120254795198"
+        ],
+        "type": "STRING"
+      }
+    ],
+    "orderItems": [
+      {
+        "sellerLineId": "1",
+        "itemDetail": {
+          "itemId": "997290188",
+          "upc": null,
+          "description": "iPhone 12 Pro Max Clear Case with MagSafe",
+          "sku": null
+        },
+        "qty": {
+          "unitOfMeasure": "EA",
+          "measurementValue": 2
+        },
+        "fulfillmentType": "D2H",
+        "shippingTo": {
+          "contact": {
+            "name": {
+              "firstName": "Christian",
+              "lastName": "Efferson"
+            },
+            "phone": "3187546195",
+            "email": "chrisharbor90@gmail.com"
+          },
+          "address": {
+            "line1": "2253 Middle Creek Blvd",
+            "city": "Bossier City",
+            "state": "LA",
+            "country": "USA",
+            "zip": "71111",
+            "addressType": null
+          }
+        },
+        "chargeDetails": [
+          {
+            "chargeCategory": "VAS",
+            "chargeName": "Gift Wrap Cost",
+            "chargePerUnit": {
+              "currencyAmount": 3.99,
+              "currencyUnit": "USD"
+            }
+          },
+          {
+            "chargeCategory": "PRODUCT",
+            "chargeName": "ItemPrice",
+            "chargePerUnit": {
+              "currencyAmount": 43.99,
+              "currencyUnit": "USD"
+            }
+          }
+        ],
+        "sourcingDetails": [
+          {
+            "shipNode": "9475",
+            "nodeType": "DC",
+            "carrierMethodId": "3003",
+            "scac": "3000",
+            "quantity": {
+              "unitOfMeasure": "EA",
+              "measurementValue": 2
+            },
+            "preciseDeliveryDate": "2021-04-09T19:00:00.000Z",
+            "expectedShipDate": "2021-04-08T22:00:00.000Z"
+          }
+        ],
+        "lineAttributes": [
+          {
+            "attributeName": "IsHazmat",
+            "values": [
+              "N"
+            ],
+            "type": "STRING"
+          }
+        ],
+        "shipMethod": "EXPRESS",
+        "instructions": [
+          {
+            "text": "Gift Messaging",
+            "type": "GIFTMSG",
+            "deliveryOption": null
+          }
+        ],
+        "addOnServices": [
+          {
+            "serviceType": null,
+            "code": null,
+            "description": null
+          }
+        ],
+        "lineType": "OWN"
+      }
+    ]
+  }
+}

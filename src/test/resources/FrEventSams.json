@@ -1,0 +1,480 @@
+{
+  "eventId": "09b9b0f4-6a04-415f-9104-eceac7efb101",
+  "eventSource": "OMS-SAMS",
+  "eventName": "FULFILLMENT_REQUEST_CREATE",
+  "eventTime": "2020-05-21T11:04:28.959Z",
+  "eventPayload": {
+    "version": "2.0",
+    "martId": "0",
+    "buId": "23",
+    "orderChannelId": "123456",
+    "customerOrderId": "2020061900018",
+    "sellerOrderId": "2020061900018",
+    "orderPlacedTimestamp": "2019-06-26T11:04:28.959Z",
+    "tcNumber": "70043211060072646602378",
+    "needsConfirmation": true,
+    "partialFulfillments": "ORDER_LEVEL",
+    "paymentStatus": "AUTHORIZED",
+    "verticalId": "0",
+    "segment": "GLASS",
+    "expoExperimentId": "123456",
+    "orderItems": [
+      {
+        "sellerLineId": "1",
+        "storeId": "1378",
+        "itemDetail": {
+          "itemId": "28945894",
+          "upc": "254285500102",
+          "wupc": "208320",
+          "gtin": "0095428550010",
+          "sku": "2083",
+          "itemClass": "",
+          "offerId": "7BE120832DB34263B1502806FAAE34AE",
+          "sellerId": "0",
+          "description": "Bread",
+          "win": "777666",
+          "imageUrl": "https://i5-qa.walmartimages.com/asr/b79a6814-775c-4994-b424-a4b69c0a847d_1.81072c0c43458c7416cebc6caa5f2588.jpeg",
+          "commodityCode": "Ambient",
+          "cin": "989898",
+          "isIsbn": false,
+          "alternateUpcs": [
+            "203",
+            "4545"
+          ],
+          "alternateGtins": [
+            "3434",
+            "434"
+          ]
+        },
+        "isConfirmed": true,
+        "bundleId": "2020",
+        "bundleType": "WIRLESS",
+        "warpId": "5545",
+        "shipTogetherId": "334",
+        "isSnapEligible": true,
+        "isPerishable": false,
+        "streetDate": "",
+        "streetDateType": "",
+        "isShipAlone": false,
+        "isPreOrder": false,
+        "lineAttributes": [
+          {
+            "type": "STRING",
+            "attributeName": "shipNodeItemID",
+            "values": [
+              "15162428"
+            ]
+          },
+          {
+            "type": "STRING",
+            "attributeName": "itemClass",
+            "values": [
+              "1"
+            ]
+          }
+        ],
+        "nodeType": "STORE",
+        "fulfillmentType": "DELIVERY",
+        "accessType": "DELIVERY_ADDRESS",
+        "pickupByDate": "",
+        "isSignOnDelivery": false,
+        "fulfillmentSubType": "",
+        "shipMethod": "STANDARD",
+        "shippingSlaTier": "THREE_TO_FIVE_DAY",
+        "forcedShipNode": "",
+        "forcedCarrier": "",
+        "skipInventoryCheck": false,
+        "addOnServices": [
+          {
+            "serviceType": "shipNodeItemID",
+            "code": "15162428",
+            "description": ""
+          },
+          {
+            "serviceType": "shipNodeItemID",
+            "code": "15162428",
+            "description": ""
+          }
+        ],
+        "gifting": {
+          "senderName": "NOT ME",
+          "recipientName": "Ali BABA",
+          "giftMessage": "EAT WELL"
+        },
+        "verticalId": "2",
+        "instructions": [],
+        "shippingTo": {
+          "contact": {
+            "name": {
+              "firstName": "Karan",
+              "lastName": "Ratra"
+            },
+            "phone": "5106793150"
+          },
+          "address": {
+            "line1": "1432 JAMES WAY",
+            "line2": "",
+            "apoFpo": false,
+            "poBox": false,
+            "city": "Michoacán de Ocampo",
+            "state": "IL",
+            "country": "USA",
+            "zip": "60007",
+            "line3": "",
+            "addressType": "RESIDENTIAL"
+          },
+          "storeTypeId": "120",
+          "storeId": "1378"
+        },
+        "lineDates": [
+          {
+            "dateType": "DELIVERY",
+            "minDate": "2018-11-13T11:04:28.959Z",
+            "maxDate": "2018-11-13T11:04:28.959Z"
+          }
+        ],
+        "qty": {
+          "measurementValue": "5",
+          "unitOfMeasure": "EA"
+        },
+        "chargeDetails": [
+          {
+            "chargeCategory": "SHIPPING",
+            "chargeName": "Shipping",
+            "chargePerLine": {
+              "currencyAmount": "1.2",
+              "currencyUnit": "USD"
+            },
+            "chargePerUnit": {
+              "currencyAmount": "1.2",
+              "currencyUnit": "USD"
+            },
+            "isDiscount": false,
+            "isBillable": false,
+            "taxDetails": {
+              "taxPerUnit": {
+                "currencyAmount": "1.2",
+                "currencyUnit": "USD"
+              },
+              "taxPerLine": {
+                "currencyAmount": "1.2",
+                "currencyUnit": "USD"
+              },
+              "taxPercentage": "1.2"
+            }
+          }
+        ],
+        "isSubstitutable": false,
+        "substitutions": [
+          {
+            "alternateUpcs": [
+              "203",
+              "4545"
+            ],
+            "alternateGtins": [
+              "3434",
+              "434"
+            ]
+          }
+        ],
+        "accessMode": "NATIONAL_CARRIER",
+        "fulfillmentPrerequisites": {
+          "preRequisiteList": [
+            "SCHEDULED_FULFILLMENT_REQUIRED",
+            "ATTENDED_FULFILLMENT_REQUIRED",
+            "SIGNATURE_ON_FULFILLMENT_REQUIRED",
+            "AGE_VERIFICATION_REQUIRED",
+            "2_MAN_HAUL_REQUIRED"
+          ]
+        },
+        "weight": {
+          "unitOfMeasure": "LB",
+          "measurementValue": "2"
+        }
+      },
+      {
+        "sellerLineId": "2",
+        "storeId": "1378",
+        "itemDetail": {
+          "itemId": "28945894",
+          "upc": "254285500102",
+          "wupc": "238323",
+          "gtin": "0095428550010",
+          "sku": "2083",
+          "itemClass": "",
+          "offerId": "7BE120832DB34263B1502806FAAE34AE",
+          "sellerId": "F55CDC31AB754BB68FE0B39941159D63",
+          "description": "Butter",
+          "alternateUpcs": [
+            "233",
+            "4545"
+          ],
+          "alternateGtins": [
+            "3434",
+            "434"
+          ],
+          "win": "777666",
+          "imageUrl": "https://i5-qa.walmartimages.com/asr/b79a6814-775c-4994-b424-a4b69c0a847d_1.81072c0c43458c7416cebc6caa5f2588.jpeg",
+          "commodityCode": "Ambient",
+          "cin": "989898",
+          "isIsbn": false
+        },
+        "bundleId": "2323",
+        "bundleType": "WIRLESS",
+        "warpId": "5545",
+        "shipTogetherId": "334",
+        "isSnapEligible": true,
+        "isPerishable": false,
+        "streetDate": "",
+        "streetDateType": "",
+        "isShipAlone": false,
+        "isPreOrder": false,
+        "lineAttributes": [
+          {
+            "type": "STRING",
+            "attributeName": "shipNodeItemID",
+            "values": [
+              "15162428"
+            ]
+          },
+          {
+            "type": "STRING",
+            "attributeName": "ItemClassId",
+            "values": [
+              "48"
+            ]
+          }
+        ],
+        "nodeType": "STORE",
+        "fulfillmentType": "PICKUP",
+        "accessType": "CURBSIDE_PICKUP",
+        "accessMode": "NATIONAL_CARRIER",
+        "pickupByDate": "",
+        "isSignOnDelivery": false,
+        "fulfillmentSubType": "",
+        "shipMethod": "STANDARD",
+        "shippingSlaTier": "THREE_TO_FIVE_DAY",
+        "forcedShipNode": "",
+        "forcedCarrier": "",
+        "skipInventoryCheck": false,
+        "addOnServices": [
+          {
+            "serviceType": "shipNodeItemID",
+            "code": "15162428",
+            "description": ""
+          },
+          {
+            "serviceType": "shipNodeItemID",
+            "code": "15162428",
+            "description": ""
+          }
+        ],
+        "gifting": {
+          "senderName": "NOT ME",
+          "recipientName": "Ali BABA",
+          "giftMessage": "EAT WELL"
+        },
+        "verticalId": "2",
+        "instructions": [],
+        "isSubstitutable": false,
+        "substitutions": [
+          {
+            "alternateUpcs": [
+              "233",
+              "4545"
+            ],
+            "alternateGtins": [
+              "3434",
+              "434"
+            ]
+          }
+        ],
+        "shippingTo": {
+          "contact": {
+            "name": {
+              "firstName": "Karan",
+              "lastName": "Ratra"
+            },
+            "phone": "5106793150"
+          },
+          "address": {
+            "line1": "1432 JAMES WAY",
+            "line2": "",
+            "line3": "",
+            "apoFpo": false,
+            "poBox": false,
+            "city": "Michoacán de Ocampo",
+            "state": "IL",
+            "country": "USA",
+            "zip": "60007",
+            "addressType": "RESIDENTIAL"
+          },
+          "storeTypeId": "123",
+          "storeId": "9870"
+        },
+        "lineDates": [
+          {
+            "dateType": "DELIVERY",
+            "minDate": "2018-11-13T11:04:28.959Z",
+            "maxDate": "2018-11-13T11:04:28.959Z"
+          }
+        ],
+        "qty": {
+          "measurementValue": "1",
+          "unitOfMeasure": "EA"
+        },
+        "weight": {
+          "unitOfMeasure": "LB",
+          "measurementValue": "2"
+        },
+        "chargeDetails": [
+          {
+            "chargeCategory": "SHIPPING",
+            "chargeName": "Shipping",
+            "chargePerLine": {
+              "currencyAmount": "1.2",
+              "currencyUnit": "USD"
+            },
+            "chargePerUnit": {
+              "currencyAmount": "1.2",
+              "currencyUnit": "USD"
+            },
+            "isDiscount": false,
+            "isBillable": false,
+            "taxDetails": {
+              "taxPerUnit": {
+                "currencyAmount": "1.2",
+                "currencyUnit": "USD"
+              },
+              "taxPerLine": {
+                "currencyAmount": "1.2",
+                "currencyUnit": "USD"
+              },
+              "taxPercentage": "1.2"
+            }
+          }
+        ]
+      }
+    ],
+    "customer": {
+      "contact": {
+        "name": {
+          "firstName": "Karan",
+          "lastName": "Ratra"
+        },
+        "phone": "5106793150",
+        "email": "kratra@walmartlabs.com"
+      }
+    },
+    "paymentDetails": [
+      {
+        "paymentType": "CREDITCARD",
+        "cardType": "VISA",
+        "last4": "3226",
+        "billTo": {
+          "name": {
+            "firstName": "Karan",
+            "lastName": "Ratra"
+          },
+          "phone": "5106793150",
+          "email": "kratra@walmartlabs.com"
+        },
+        "billingAddress": {
+          "line1": "840 West California Ave",
+          "line2": "",
+          "line3": "",
+          "line4": "",
+          "line5": "",
+          "apoFpo": false,
+          "poBox": false,
+          "city": "San Bruno",
+          "state": "CA",
+          "country": "USA",
+          "zip": "94560",
+          "addressType": "RESIDENTIAL"
+        },
+        "voucherReference1": "ref1",
+        "voucherReference2": "ref2"
+      }
+    ],
+    "pickupPersonDetails": [
+      {
+        "contact": {
+          "name": {
+            "firstName": "Karan",
+            "lastName": "Ratra"
+          },
+          "phone": "5106793150",
+          "email": "kratra@walmartlabs.com"
+        },
+        "isPrimary": true
+      }
+    ],
+    "deliveryReservationDetails": [
+      {
+        "orderLineRelations": [
+          "1",
+          "2"
+        ],
+        "reservationId": "87fa88ec-a611-11ea-bb37-0242ac130002",
+        "bookDate": "2020-06-03T11:04:28.959Z",
+        "startTime": "14:00",
+        "endTime": "16:00",
+        "allowedAmendDateTime": "2000-01-01T11:04:28.959Z",
+        "slotCutOffTime": "2000-01-01T11:04:28.959Z",
+        "plannedDeliveryTime": "2020-06-03T11:04:28.959Z",
+        "timezone": "US/Pacific",
+        "scheduleNumber": "192",
+        "loadNumber": "1",
+        "vanId": "VAN-200-9082",
+        "fulfillmentLocationId": "13",
+        "dispenseType": "PICKUP_INSTORE",
+        "priority": "0",
+        "doorStepTime": "5000",
+        "vehicleDepartureTime": "2016-11-10T11:04:28.959Z",
+        "fulfillmentDate": "2016-11-10T11:04:28.959Z",
+        "fulfillmentLocationType": "locationTypeId",
+        "loadSize": "1"
+      }
+    ],
+    "instructions": [
+      {
+        "text": "Please place at front door if we are out",
+        "type": "DRIVER",
+        "deliveryOption": "Attended/UnAttended"
+      }
+    ],
+    "orderLineRelations": {
+      "services": [
+        {
+          "productLineNo": "1",
+          "serviceLineNo": "001",
+          "serviceRelationshipType": "general"
+        }
+      ]
+    },
+    "orderTotals": {
+      "grandTotal": {
+        "currencyAmount": "51.38",
+        "currencyUnit": "USD"
+      },
+      "promotionTotal": {
+        "currencyAmount": "10",
+        "currencyUnit": "USD"
+      },
+      "subtotal": {
+        "currencyAmount": "40.38",
+        "currencyUnit": "USD"
+      },
+      "shipping": {
+        "currencyAmount": "1",
+        "currencyUnit": "USD"
+      },
+      "tax": {
+        "currencyAmount": "10",
+        "currencyUnit": "USD"
+      }
+    },
+    "sellerId": 0
+  }
+}
