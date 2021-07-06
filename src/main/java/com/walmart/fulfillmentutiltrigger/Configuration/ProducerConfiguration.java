@@ -39,10 +39,10 @@ public class ProducerConfiguration {
         properties.setProperty("request.required.acks", "1");
         properties.setProperty("max.request.size", "1600000");
         properties.setProperty("security.protocol", "SSL");
-        properties.setProperty("ssl.truststore.password", "truststore@123");
-        properties.setProperty("ssl.truststore.location", "/Users/s0k06iv/Downloads/SSLCertificate/truststore.jks");
+        properties.setProperty("ssl.truststore.password", "truststore@12");
+        properties.setProperty("ssl.truststore.location", "/Users/p0k00df/Downloads/SSLCertificate/truststore.jks");
         properties.setProperty("ssl.keystore.password", "keystore@123");
-        properties.setProperty("ssl.keystore.location", "/Users/s0k06iv/Downloads/SSLCertificate/keystore.jks");
+        properties.setProperty("ssl.keystore.location", "/Users/p0k00df/Downloads/SSLCertificate/keystore.jks");
         properties.setProperty("ssl.key.password", "keystore@123");
         properties.setProperty("ssl.endpoint.identification.algorithm","");
         return properties;
@@ -56,7 +56,4 @@ public class ProducerConfiguration {
             kafkaProducers.add(new KafkaProducer<String, String>(properties));
         return kafkaProducers;
     }
-
-
-
 }

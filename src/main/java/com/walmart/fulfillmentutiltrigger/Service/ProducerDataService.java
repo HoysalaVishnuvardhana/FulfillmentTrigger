@@ -7,6 +7,8 @@ import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+
+import com.walmart.fulfillmentutiltrigger.elastic.ElasticQueryExecutor;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -49,12 +51,15 @@ public class ProducerDataService {
 
     private static int schedulerCount=0;
 
+    @Autowired
+    private ElasticQueryExecutor elasticQueryExecutor;
+
     public void frReproduceData() throws Exception {
         Map<String, Object> frMap= frEventMapper.getFrData();
         Set<String> sentEvents = Collections.synchronizedSet(new HashSet<>());
         ExecutorService executorService = Executors.newFixedThreadPool(threadCount);
         for (int i = 0; i < threadCount; i++)
-            executorService.execute(new FrProduceDataRunnable(env, kafkaProducers.get(i), loggerUtil, converterUtil, frMap, threadCount, producerTopic));
+            executorService.execute(new FrProduceDataRunnable(env, kafkaProducers.get(i), loggerUtil, converterUtil, frMap, threadCount, producerTopic,elasticQueryExecutor));
     }
 
     @Scheduled(fixedDelayString = "${fixedDelay.in.milliseconds}")

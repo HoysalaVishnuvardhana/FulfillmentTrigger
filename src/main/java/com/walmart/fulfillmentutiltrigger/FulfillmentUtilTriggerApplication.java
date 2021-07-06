@@ -7,7 +7,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-@ComponentScan(basePackages = {"com.walmart.fulfillmentutiltrigger"})
+@ComponentScan(basePackages = {"com.walmart.fulfillmentutiltrigger","com.walmart.fulfillmentutiltrigger.context"})
 public class FulfillmentUtilTriggerApplication {
 
 	public static void main(String[] args) {

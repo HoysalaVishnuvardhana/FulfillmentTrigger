@@ -5,8 +5,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.beans.factory.annotation.Value;
 import com.walmart.fulfillmentutiltrigger.Service.ProducerDataService;
+import org.springframework.context.annotation.DependsOn;
 
 @Configuration
+@DependsOn("elasticQueryExecutor")
 public class ProduceFrDataScheduler {
     @Value("${is.fr.produceData.flag}")
     private boolean reproduceData;
